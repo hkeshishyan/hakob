@@ -1,0 +1,453 @@
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+pwd
+cd /
+cd /etc/
+cd..
+cd /
+cd /home/hakob
+pwd
+ls
+man
+man man
+man ls
+ls
+ls -a
+ls -l
+ls -l -a
+pwd
+mkdir test
+ls -l
+mkdir test2/
+ls
+ls -la
+rm test2
+rm -r test2/
+ls -l
+ls -lh
+touch title
+ls -ls
+mkdir test-dir/test2
+mkdir test-dir/
+mkdir test-dir/test2
+ln -s  test-dir/test2 link
+ls -ls
+cat /var/log/
+echo Hello world
+echo Hello world > hello_world
+cat hello_world 
+echo Hello Armenia >> hello_world
+cat hello_world 
+HI=Barev
+echo $HI
+less
+less /var/log/
+less /var/log/dpkg.log 
+uname -a
+cat /etc/os-release 
+vim
+nano
+whoami
+touch /home/$(whoami)/test6
+ls
+tar
+tar -vcf archive.tar.gz
+tar -vcf archive.tar.gz test-dir/
+ls
+cat hello_world 
+cat hello_world | grep Armenia
+cat hello_world | grep Armenia | echo > test7
+cat test7
+cat hello_world | grep Armenia | echo > test7
+tail /test7
+tail test7
+tail /var/log/
+diff test2 test7
+echo a>> file1
+echo b>> file1
+echo d>> file1
+echo a>> file2
+echo b>> file2
+echo c>> file2
+diff file1 file2
+cmp file1 file2
+echo dog > animals
+echo cat >> animals
+echo horse >> animals
+cat animals
+sort animals
+zip
+unzip
+ssh
+ssh username@hostname
+ps
+ps -a
+kill
+ls
+ls -l
+ifconfig
+rest out
+ping 8.8.8.8
+tracepath 8.8.8.8
+traceroute
+sudo apt-gat install traceroute
+sudo apt install traceroute
+sudo apt install ifconfig
+traceroute 8.8.8.8
+traceroute 81.89.217.193
+tracepath 8.8.8.8
+traceroute 8.8.8.8
+wget
+ufw
+ifconfig
+sudo apt install net-tools
+ifconfig
+date
+cal
+whereis ls
+whatis ls
+hope
+htop
+useradd
+usermod
+passwd 
+ls
+pwd
+ls
+cat hello_world 
+cat hello_world | grep Armenia
+cat hello_world | grep Hello
+cat animals 
+echo horse >> animals 
+cat animals 
+nano animals 
+cat animals 
+nano animals 
+cat animals 
+sort animals 
+cat animals 
+sort animals 
+zip
+ssh
+ssh username@hostname
+ps
+kill 55430
+ps
+kill 55430
+ps
+kill -9 55430
+ps
+ls -l
+cd
+pwd
+ls
+top
+ggrep
+pgrep
+free
+sudo apt-get update 
+nano /etc/apt/sources.list 
+apt-cache search tracepath
+telnet
+sudo apt-get install zip
+mkdir archiveme
+ls
+echo date
+echo date > /home/hakob/archiveme/date
+ls
+ls ./archiveme/
+zip archiveme/
+zip archiveme/date 
+zip archiveme/ archive.zip
+ls ./archiveme/
+ls
+zip -r ./archiveme/
+zip -r date.zip archiveme/
+ls
+unzip date.zip 
+ls
+top
+pgrep su
+sleep 60&
+htop
+sudo apt  install htop
+ps -aux
+pgrep sleep
+htop
+service ssh status
+ssh
+systemctl ssh ststus
+systemctl ststus ssh
+systemctl status 
+touch /etc/systemd/system/test.service
+sudo touch /etc/systemd/system/test.service
+nano touch /etc/systemd/system/test.service
+cat touch /etc/systemd/system/test.service
+systemctl daemon-reload
+systemctl ststus test
+systemctl start test
+
+sudo cat /root/service.log
+sudo systemctl start test
+sudo systemctl ststus test
+sudo systemctl ststus test.service
+systemctl ststus tes
+systemctl start test
+systemctl enable test
+systemctl ststus test
+systemctl status test
+nano touch /etc/systemd/system/test.service
+nano  /etc/systemd/system/test.service
+sudo touch /etc/systemd/system/test.service
+sudo nano /etc/systemd/system/test.service
+cat /etc/systemd/system/test.service
+systemctl status test
+systemctl start test
+cat service.log
+cat /root/service.log
+sudo cat /root/service.log
+systemctl stop test
+cat /root/service.log
+sudo cat /root/service.log
+sudo systemctl start test
+sudo nano /etc/systemd/system/print_processes.service
+ls /etc/systemd/system/
+systemctl demon-reload
+systemctl daemon-reload
+sudo nano /etc/systemd/system/print_processes.service
+
+sudo systemctl start print_processes.servicet
+sudo systemctl daemon-reload
+sudo systemctl start print_processes.servicet
+sudo nano /etc/systemd/system/print_processes.service
+where is ps
+whereis p
+sudo nano /etc/systemd/system/print_processes.service
+sudo systemctl daemon-reload
+sudo systemctl start print_processes.servicet
+sudo systemctl start print_processes.service
+ls /var/log/
+sudo nano /etc/systemd/system/print_processes.service
+sudo systemctl stop print_processes.service
+ls /var/log/
+nano /etc/fstab 
+cat /etc/mtab \
+cat /etc/mtab 
+htop
+service cron status 
+nano /etc/crontab 
+ls /home/
+sudo nano /home/hakob/date_cron
+nano /etc/crontab 
+sudo nano /etc/crontab 
+crontab -e 
+cat /var/log//syslog | grep cron
+cat /home/hakob/cron_date 
+crontab -e 
+cat /home/hakob/cron_date 
+crontab -e 
+crontab -l
+cd ~/
+echo ~
+cd /etc/
+ls
+cd logrotate.d/
+ls
+cat rsyslog 
+cd ~
+cron -e
+crontab -e
+curl 
+sudo apt install curl
+curl localhost
+curl 127.0.0.1
+sudo apt install apache2
+curl 127.0.0.1
+curl localhost
+crontab -e
+cat /var/log/apache2/access.log 
+whereis rsyslog 
+cd /etc/
+ls
+cd logrotate.d/
+ls
+cat rsyslog 
+cd /var/log/
+ls
+ls --all
+ls -h
+ls -l
+cat /ets/sysrotate.d//rsyslog 
+cat /ets/sysrotate.d/rsyslog 
+cat /ets/logrotate.d/rsyslog 
+cd /ets/logrotate.d/
+cd /etc/logrotate.d/
+cat /etc/logrotate.d/rsyslog 
+nano /etc/logrotate.d/rsyslog 
+sudo nano /etc/logrotate.d/rsyslog 
+cd /var/log/
+ls
+cd syslog
+cd apache2/
+ls
+whereami
+wereami
+sudo nano /etc/logrotate.d/rsyslog 
+cat /etc/logrotate.d/rsyslog 
+cd ~
+systemctl list-timers 
+cd /etc/logrotate.d/
+more apache2 
+ls
+more rsyslog 
+ls
+ls -l
+cat /var/lib/logrotate/status 
+cd ~
+ls /etc/
+ls /etc/ -la
+cat /etc/logrotate.conf 
+cd /etc/logrotate.d/
+ls
+sudo nano rsyslog 
+sudo nano apache2 
+ls /var/log/apache2/
+ls
+cat apache2
+exit
+crontab -e
+whereis crontab
+crontab -e
+ls
+ssh ubuntu@52.15.46.81
+ls
+cd downloads
+pwd
+cd Downloads
+ls
+cd ~
+cd Downloads
+ssh -i Hakob-VM1.pem ubuntu@52.15.46.81
+chmod 600 Hakob-VM1.pem 
+ls -l
+ssh -i Hakob-VM1.pem ubuntu@52.15.46.81
+cd ~
+ssh 3.138.122.207
+cd Downloads
+ls
+rm Hakob-VM1.pem 
+ls
+chmod 600 hakob-vm.pem 
+ssh -i hakob-vm.pem ubuntu@3.16.150.1953
+ssh -i hakob-vm.pem ubuntu@3.16.150.195
+udo apt install vsftpd
+sudo apt install vsftpd
+ssh  ubuntu@3.16.150.195
+ssh -i hakob-vm.pem ubuntu@3.16.150.195
+ssh  hakob@3.16.150.195
+ssh -i hakob-vm.pem hakob@3.16.150.195
+ssh -i hakob-vm.pem ubuntu@3.16.150.195
+cd ~
+ls -la
+cs .ssh/
+cd .ssh/
+ls
+nano .ssh/authorized_keys
+nano authorized_keys
+exit
+echo .bash_history > history_local.txt
+ls
+cat history_local.txt 
+cat .bash_history > history_local.txt
+cat history_local.txt 
+mkdir repo
+rm -r repo/
+mkdir test-git
+cd test-git/
+mkdir repo
+cd repo/
+get -v
+git -v
+sudo apt install git
+git -v
+git --version
+git init
+cd .git/
+ls
+cd ..
+touch test-file
+git ststus
+git status
+git add status
+git add test-file 
+git status
+ls
+git clone https://github.com/arkocharyan/bdg-test.git
+ls
+exit
+ls
+cd test-git/
+ls
+mkdir bgg-test
+ls
+mkdir bdg-test
+ls
+cd bdg-test/
+git clone https://github.com/arkocharyan/bdg-test.git
+ls
+cd bdg-test/
+ls
+exit
+cd test-git/
+cd bdg-test/
+ls
+cd bdg-test/
+ls
+cd ..
+git clone https://github.com/arkocharyan/bdg-test.git
+rm -r bdg-test/
+git clone https://github.com/arkocharyan/bdg-test.git
+cdl
+cd
+ls
+cd test-git/
+ls
+cd bdg-test/
+ls
+cd bdg-test/
+ls
+exit
+cd test-git/
+cd
+cd test-git/
+ls
+cd bdg-test/
+ls
+cd bdg-test/
+ls
+ls -a
+ls
+git clone https://github.com/arkocharyan/bdg-test.git
+ls
+cd bdg-test/
+ls
+cat file1 
+ls -ls
+ls -la
+git pull 
+ls -la
+git pull 
+ls -la
+cd
+cd test-git/
+ls -la
+cd bdg-test/
+ls -la
+cd bdg-test/
+ls -la
+git pull 
+ls -la
+nano file1 
+git diff 
+git commit -m "testing diff"
+git log
+git show
