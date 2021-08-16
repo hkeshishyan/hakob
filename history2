@@ -1,0 +1,764 @@
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+ls
+pwd
+cd
+pwd
+cd /
+pwd
+ls
+cd /home
+ls
+ls -lh
+cd /
+pwd
+ls 
+ls -lh
+ls
+cd /boot
+ls
+pwd
+ls -lh
+cd /home
+pwd
+ls
+cd /hkeshishyan
+cd
+pwd
+ls
+ls -ld
+cd /
+ls
+cd /home
+ls
+cd hkeshishyan/
+pwd
+ls
+ls -lh
+ls -l
+cd /mnt/
+ls
+pwd
+cd
+pwd
+cd home/
+cd /home
+pwd
+ls
+ls /hkeshishyan
+ls /hkeshishyan/
+ls hkeshishyan/
+ls /hkeshishyan
+ls hkeshishyan/
+ls /desktop
+ls desktop/
+cd desktop/
+cd /desktop
+ls
+cd /hkeshishyan
+cd hkeshishyan/
+pwd
+ls
+cd /home/hkeshishyan/desktop
+cd /home/hkeshishyan/Desktop
+pwd
+ls
+exit
+ls
+pwd
+cd /
+pwd
+?
+help
+ls
+cd /proc
+ls
+cat filesystems
+ls
+cat meninfo
+pwd
+ls
+cat cpuinfo
+cd ..
+pwd
+ls
+cd /etc
+pwd
+ls
+cd network
+ls
+cd newt
+cd .
+cd
+cd /etc
+ls
+cd networks
+cd /networks
+cd /NetworkManager
+cd NetworkManager
+ls
+cd system-connections
+ls
+cd ..
+cat ?
+cat help
+cat system-connections
+cat 
+ifconfig
+cd /
+cd etc
+ls
+cd 
+ls
+cd
+ls
+cd ..
+ls
+cd ..
+ls
+/bin/bin
+ls
+cd bin
+ls
+cd
+cd /usr
+ls
+cd sbin
+ls
+cd
+vf /bin
+pwd
+cd /
+ls
+cd bin
+ls
+cd/
+cd ..
+ls
+cd bin
+ifconfig
+ls
+ip 
+cd ..
+ls
+cd usr
+ls
+cd bin
+pwd
+ls
+pwd
+cd /
+pwd
+ls
+cd /etc
+ls
+cat /etc/fstab
+cat etc/fstab
+cat /etc/fstab
+cat /etc/hosts
+cat /etc/protocols
+cd ..
+pwd
+cd /lib
+ls
+cd /proc
+cd /proc/partitions
+cd /partitions
+cat /proc/partitions
+cat /proc/stat
+cat /proc/swaps
+cat /proc/uptime
+cd /sbin
+ls
+cat /sbin/iptables
+cd /sbin/iptables
+cd /sbin/iptables/
+cd /sbin/ifconfig
+cd /sbin/ifconfig/
+cat /sbin/ifconfig/
+cat /sbin/ifconfig
+exit
+ifconfig
+sudo apt install net-tools
+traceroute
+sudo apt install net-tools
+traceroute 4.2.2.2
+sudo apt install inetutils-traceroute
+traceroute 4.2.2.2
+ping 4.2.2.2
+ifconfig
+ls -l
+pwd
+ls -la
+ls -all 
+man
+man man
+ls
+ls -a
+ls --a
+ls -a
+man ls
+ls -l
+ls -l -a
+ls -la
+man ls
+ls -al
+ls -a
+pwd
+man pwd
+pwd -l
+pwd -L
+man CD
+man cd
+man mkdir
+mkdir test
+mkdir test2
+mv test test2/
+ls
+cd test2/
+ls
+cd..
+cd ..
+ls -l -a
+cd test2/test/
+cd
+cd test2/test/
+cd ..
+ls
+cd test2/test/
+cd -
+ls
+man cp
+cd test2/
+ls
+rm test/
+rm -r test/
+ls
+mkdir test
+ls
+cd ..
+ls
+cp .vboxclient-clipboard.pid test
+ls -a
+ls -a -l
+ls -l
+ls -l -a
+ls -l 
+chmod 777 test4
+cp test test3
+chmod 777 test3
+ls -l 
+cp test3 test4
+ls -l 
+cp test3 test4 -p
+ls -l 
+cat .bash_history 
+history 
+touch title
+ls -ls
+man touch
+rm title 
+ls
+touch file
+ls
+ls -ls
+ls -l
+mkdir test-dir
+mkdir test-dir/test2
+man ln
+ln -s test-dir/test2 link
+ls -l
+cd link
+touch here
+ls
+cd -
+cd test-dir/test2/
+ls
+cd ..
+ls
+ls test-dir/test2/
+ls link
+man ln
+cat test
+cat /var/log/auth.log 
+echo Hello world
+echo Hello world > hello_world
+cat hello_world
+ls
+echo Hello Armenia > hello_world
+cat hello_world
+echo Hello world >> hello_world
+cat hello_world
+echo Hello World > hello_world
+cat hello_world
+echo Hello Armenia >> hello_world
+cat hello_world
+echo $shell
+echo $SHELL
+nano .profile 
+echo .bash_history 
+nano .bash_history 
+nano .bash_logout 
+less
+uname
+uname -a
+man uname
+cp /etc/os-relase /home/hkeshishyan/my-PC
+cat /etc/os-release 
+cp /etc/os-relase my-PC
+cp /etc/os-release my-PC
+ls
+cat my-PC
+whoami
+is
+ls
+cat hello_world | grep Armenia
+ls
+touch animals
+ls
+echo horse >> animals
+echo dog >> animals
+echo cat >> animals
+cat animals 
+echo horse >> animals
+cat animals 
+nano animals 
+ls
+sort animals 
+ps -3
+ps 
+ps -a
+ls -l
+man chmod
+sudo su
+traceroute 8.8.8.8
+wget 
+ufw
+top
+htop
+sudo apt-get install htop
+htop
+ls
+nano run.sh
+ls
+./run.sh
+chmod +x run.sh
+./run.sh
+cat script 
+cat test
+ls -l
+cat test3
+cat /var/log/syslog
+cat /var/log/syslog | grep kernel
+cat /var/log/syslog | grep store
+cat /var/log/
+cat /var/log/syslog.1 | grep store
+cat /var/log/syslog.1 | grep kernel
+cat /var/log/syslog.1 
+cat /var/log/syslog.1 | grep kernel
+cat /var/log/syslog | grep kernel
+cat /var/log/syslog | grep "kernel"
+cat /var/log/syslog | grep 'kernel'
+cat /var/log/auth.log 
+cat /var/log/auth.log | grep kernel
+cat /var/log/boot.log | grep kernel
+cat /var/log/syslog
+cat /var/log/faillog | grep kernel
+cat /var/log/syslog | grep kernel
+cat /var/log/dpkg.log | grep kernel
+echo /var/log/syslog | grep kernel
+echo /var/log/dpkg.log | grep kernel
+echo /var/log/dpkg.log | grep kernel >> kernel_info
+ls
+cat kernel_info 
+cat /var/log/dpkg.log | grep kernel
+cat /var/log/dpkg.log | grep kernel echo >kernel_info 
+cat /var/log/dpkg.log | grep kernel echo > kernel_info 
+cat /var/log/dpkg.log | grep kernel echo >> kernel_info 
+cat /var/log/dpkg.log | grep kernel  > kernel_info 
+cat kernel_info 
+cat /var/log/syslog | grep kernel  > kernel_info 
+cat kernel_info 
+cat /var/log/dpkg.log | grep kernel  > kernel_info 
+cat kernel_info 
+cat /var/log/syslog | grep kernel  > kernel_info1 
+cat kernel_info 
+cat kernel_info1 
+ls
+sudo apt-get install apache 
+sudo apt-get install apache2 
+pwd
+cd ..
+ls
+cd ..
+ls
+cd /srv
+ls
+cd /home/hkeshishyan/
+ls
+service apache2 start 
+cd /etc/
+ls
+cd init.d/
+ls
+cd -
+cd ..
+ls
+cd /home/hkeshishyan/
+sudo service apache2 stop 
+sudo service apache2 start
+ps
+cat /var/log/apache2/access.log 
+tail /var/log/apache2/access.log 
+sudo service apache2 stop 
+sudo service apache2 start 
+tail -25 /var/log/apache2/access.log 
+tail -11 /var/log/apache2/access.log 
+tail -25 /var/log/apache2/access.log 
+tail -25 /var/log/apache2/access.log > apache_logs
+ls
+ls -a
+cat .bash_history 
+ls -a
+cat .bash_history 
+in
+ls
+ls -l
+ls -l -a
+uname
+uname -a
+cat /etc/os-release 
+ls
+car archive.tar.gz 
+nano .bash_history 
+cat .bash_logout 
+cat test
+cat test8
+cat test > test8
+cat test8
+cd test8
+sudo apt-get update 
+nano /etc/apt/sources.list
+telnet 
+apt cache search telnet
+apt-cache search telnet
+apt-cache search tracepath
+sudo apt install zip
+sudo su
+exit
+ls /etc/systemd/system
+nano /etc/systemd/system/processes.service
+sudo nano /etc/systemd/system/processes.service
+man ps
+ls /hkesishyan/bin
+ls
+pwd
+ls /home/
+ls /
+ls /bin/
+sudo rm /
+ls /bin/
+sudo nano /etc/systemd/system/processes.service
+systemctl daemon-reload 
+sudo systemctl daemon-reload 
+sudo systemctl start processes
+ls /var/log/
+cat /var/log/process.log 
+sudo systemctl stop processes
+ls /var/log/
+man cp
+cp /etc/systemd/system/processes.service /home/hkeshishyan/
+pwd
+mkdir zabbix-packages
+rm -r zabbix-packages/
+touch zabbix-packages
+apt-cache search zabbix > zabbix-packages 
+cat zabbix-packages 
+apt-cache search zabbix 
+tar -vcf zabbix.tar.gz zabbix-packages 
+ls
+tail -20 .bash_history > bash_historylast20
+ls
+cat bash_historylast20 
+exit
+ls
+tail -20 .bash_history > bash_historylast20
+cat bash_historylast20 
+tail -30 .bash_history > bash_historylast20
+cat bash_historylast20 
+tail -20 .bash_history > bash_historylast20
+cat bash_historylast20 
+whereis ps
+whereis rm
+crontab -l
+select-editor 
+cat /etc/fstab 
+cat /etc/mtab
+cat /var/log/apache2/error.log
+cat /var/log/apache2/access.log
+cat /var/log/apache2/access.log.1
+cat /var/log/apache2/access.log
+cat /etc/fstab 
+cat /etc/mtab
+htop
+crontab -e
+service cron status 
+exit
+service cron ststus
+service cron status 
+crontab -e
+sudo crontab -e
+crontab -e
+sudo crontab -e
+crontab -e
+sudo crontab -e
+crontab -e
+cat /var/log/apache2/access.log
+cat /var/log/apache2/access.log.1
+service cron status 
+crontab -e
+ls
+ls /home/hkeshishyan/
+cat /home/hkeshishyan/date_cron 
+crontab -e
+curl localhost
+sudo apt install curl
+cat /var/log/apache2/access.log
+crontab -e
+cat /var/log/apache2/access.log
+crontab -e
+cat /var/log/apache2/access.log
+cd /etc/logrotate.d/
+ls
+cat apache2 
+cat /var/log/apache2/access.log
+nano rotate_apache2_access_log
+sudo nano rotate_apache2_access_log
+ls
+cat /var/lib/logrotate/status 
+more rotate_apache2_access_log 
+cd ~
+whereami
+cat /var/log/apache2/access.log
+crontab -e
+whereis crontab
+cat /etc/crontab 
+cat /usr/bin/crontab 
+crontabe 
+crontab -e
+ls
+cp rotate_apache2_access_log /etc/logrotate.d/rotate_apache2_access_log 
+cp ~/rotate_apache2_access_log /etc/logrotate.d/rotate_apache2_access_log 
+cp /etc/logrotate.d/rotate_apache2_access_log ~/rotate_apache2_access_log
+ls
+cat rotate_apache2_access_log 
+cat copy_crontab-e 
+cat .bash_history 
+exit
+cat .bash_h
+cat .bash_history 
+tail 50 .bash_history 
+tail -50 .bash_history 
+tail -70 .bash_history 
+tail -54 .bash_history 
+tail -54 .bash_history > tail_54lines_bash_history
+ls
+exit
+ls -la
+ls /var/log/apache2/
+ls /var/log/apache2/ -l
+ls -l /etc/logrotate.d/
+cat /etc/logrotate.d/apache2 
+ps
+ps -l
+ps -a
+ps -au
+ps -aux
+crontab -l
+man crontab 
+cat /var/log/syslog | grep curl
+cat /var/log/syslog | grep logrotate
+ifconfig
+whereis logrotate
+cd /usr/sbin/logrotate
+cat /usr/sbin/logrotate
+cd ~
+pwd
+cat rotate_apache2_access_log 
+cd /var/log/apache2/
+ls
+ls -la
+exit
+cat /etc/logrotate.d/
+cat /etc/logrotate.d/rotate_apache2_access_log 
+cp /etc/logrotate.d/rotate_apache2_access_log /etc/logrotate.d/test
+sudo cp /etc/logrotate.d/rotate_apache2_access_log /etc/logrotate.d/test
+ls /etc/logrotate.d/
+cat /etc/logrotate.d/test 
+crontab -e 
+nano testcurl.sh
+ls -l
+crontab -e 
+ls -l
+crontab -e 
+cat testcurl.sh 
+ls -l
+touch testcurl.log
+ls -l
+cat testcurl.log 
+cat testcurl.sh 
+cat /var/log/syslog
+cat /var/log/syslog | grep curl
+cat testcurl.sh 
+cat /home/hkeshishyan/testcurl.log 
+run testcurl.sh 
+crontab -e 
+cat /home/hkeshishyan/testcurl.sh 
+ls -ls
+ls ./
+ls
+testcurl.sh 
+/home/hkeshishyan/testcurl.sh
+chmod +x testcurl.sh 
+rm testcurl.log 
+ls
+cat testcurl.log 
+crontab -e
+cat testcurl.sh 
+crontab -e
+logrotate 
+cat /etc/logrotate.d/test 
+nano /etc/logrotate.d/test 
+sudo nano /etc/logrotate.d/test 
+logrotate /etc/logrotate.d/test 
+sudo logrotate /etc/logrotate.d/test 
+ls
+cat /etc/logrotate.d/test 
+sudo logrotate /etc/logrotate.d/test 
+ls
+cat testcurl.log 
+cat /etc/logrotate.d/test 
+crontab -e
+sudo /usr/sbin/logrotate /etc/logrotate.d/test 
+ls
+sudo nano /etc/logrotate.d/test 
+ls
+sudo /usr/sbin/logrotate /etc/logrotate.d/test 
+ls
+sudo /usr/sbin/logrotate /etc/logrotate.d/test 
+ls
+cat testcurl.log 
+crontab -e
+./testcurl.sh 
+ls
+cr
+ls
+./testcurl.sh 
+ls
+./testcurl.sh 
+ls
+crontab -e
+ls
+ls ~/downloads
+pwd
+cd ~/downloads
+cd Downloads/
+ls
+ssh -i vm-aia.pem ubuntu@3.19.255.217
+chmod 600 vm-aia.pem 
+ssh -i vm-aia.pem ubuntu@3.19.255.217
+cd ~
+cd .ssh/
+ls
+nano known_hosts 
+exit
+cd .ssh/
+LS -A
+LS -a
+ls
+ls -la
+cd .
+cd
+ls
+ls -la
+ls .ssh/
+cat .ssh/known_hosts 
+ssh -i ~/Downloads/vm-aia.pem ubuntu@3.19.255.217
+ssh  ubuntu@3.19.255.217
+ssh -i ~/Downloads/vm-aia.pem ubuntu@3.19.255.217
+cat .bash_history > history_local.txt
+ssh -i ~/Downloads/vm-aia.pem ubuntu@3.19.255.217
+history 
+mkdir test-git
+ls
+cd test-git/
+ls
+mkdir repo
+cd repo/
+git --version
+sudo apt install git
+git --version
+git init
+ls
+ls -la
+cd .git/
+ls
+cd ..
+nano test-file
+git status
+ls
+git add test-file 
+git status
+git commit -m "test file is added"
+ls
+cd ..
+ls -ls
+ls -la
+git clone https://github.com/arkocharyan/bdg-test.git
+ls
+cd bdg-test/
+ls
+nano Test_File
+ls
+git status 
+git add Test_File
+git status 
+git commit -m "Test_File added for test"
+git config --global user.name "hkeshishyan"
+git commit -m "Test_File added for test"
+git config --global user.email "hakob.keshishyan@gmail.com"
+git commit -m "Test_File added for test"
+git status 
+ls
+git push 
+ls
+git status 
+git pull 
+ls
+nano Test_File1
+ls
+git status 
+git add Test_File1 
+git status 
+git commit -m "Hakob's git test file."
+git status 
+git push Test_File1 
+git push 
+ls
+cat file1 
+nano Test_File
+git status 
+git add Test_File 
+git commit -m Test_File 
+git status 
+git push 
+nano Test_File
+git status 
+git add Test_File 
+git status 
+git commit "Second time test changed"
+git commit -m "Second time test changed"
+git push 
+ls -la
+cat .gitignore 
+git diff
+git log
