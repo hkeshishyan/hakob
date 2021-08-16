@@ -1,0 +1,791 @@
+    1  sudo apt install build-essential dkms linux-headers-$(uname -r)
+    2  ls
+    3  pwd
+    4  cd
+    5  pwd
+    6  cd /
+    7  pwd
+    8  ls
+    9  cd /home
+   10  ls
+   11  ls -lh
+   12  cd /
+   13  pwd
+   14  ls 
+   15  ls -lh
+   16  ls
+   17  cd /boot
+   18  ls
+   19  pwd
+   20  ls -lh
+   21  cd /home
+   22  pwd
+   23  ls
+   24  cd /hkeshishyan
+   25  cd
+   26  pwd
+   27  ls
+   28  ls -ld
+   29  cd /
+   30  ls
+   31  cd /home
+   32  ls
+   33  cd hkeshishyan/
+   34  pwd
+   35  ls
+   36  ls -lh
+   37  ls -l
+   38  cd /mnt/
+   39  ls
+   40  pwd
+   41  cd
+   42  pwd
+   43  cd home/
+   44  cd /home
+   45  pwd
+   46  ls
+   47  ls /hkeshishyan
+   48  ls /hkeshishyan/
+   49  ls hkeshishyan/
+   50  ls /hkeshishyan
+   51  ls hkeshishyan/
+   52  ls /desktop
+   53  ls desktop/
+   54  cd desktop/
+   55  cd /desktop
+   56  ls
+   57  cd /hkeshishyan
+   58  cd hkeshishyan/
+   59  pwd
+   60  ls
+   61  cd /home/hkeshishyan/desktop
+   62  cd /home/hkeshishyan/Desktop
+   63  pwd
+   64  ls
+   65  exit
+   66  ls
+   67  pwd
+   68  cd /
+   69  pwd
+   70  ?
+   71  help
+   72  ls
+   73  cd /proc
+   74  ls
+   75  cat filesystems
+   76  ls
+   77  cat meninfo
+   78  pwd
+   79  ls
+   80  cat cpuinfo
+   81  cd ..
+   82  pwd
+   83  ls
+   84  cd /etc
+   85  pwd
+   86  ls
+   87  cd network
+   88  ls
+   89  cd newt
+   90  cd .
+   91  cd
+   92  cd /etc
+   93  ls
+   94  cd networks
+   95  cd /networks
+   96  cd /NetworkManager
+   97  cd NetworkManager
+   98  ls
+   99  cd system-connections
+  100  ls
+  101  cd ..
+  102  cat ?
+  103  cat help
+  104  cat system-connections
+  105  cat 
+  106  ifconfig
+  107  cd /
+  108  cd etc
+  109  ls
+  110  cd 
+  111  ls
+  112  cd
+  113  ls
+  114  cd ..
+  115  ls
+  116  cd ..
+  117  ls
+  118  /bin/bin
+  119  ls
+  120  cd bin
+  121  ls
+  122  cd
+  123  cd /usr
+  124  ls
+  125  cd sbin
+  126  ls
+  127  cd
+  128  vf /bin
+  129  pwd
+  130  cd /
+  131  ls
+  132  cd bin
+  133  ls
+  134  cd/
+  135  cd ..
+  136  ls
+  137  cd bin
+  138  ifconfig
+  139  ls
+  140  ip 
+  141  cd ..
+  142  ls
+  143  cd usr
+  144  ls
+  145  cd bin
+  146  pwd
+  147  ls
+  148  pwd
+  149  cd /
+  150  pwd
+  151  ls
+  152  cd /etc
+  153  ls
+  154  cat /etc/fstab
+  155  cat etc/fstab
+  156  cat /etc/fstab
+  157  cat /etc/hosts
+  158  cat /etc/protocols
+  159  cd ..
+  160  pwd
+  161  cd /lib
+  162  ls
+  163  cd /proc
+  164  cd /proc/partitions
+  165  cd /partitions
+  166  cat /proc/partitions
+  167  cat /proc/stat
+  168  cat /proc/swaps
+  169  cat /proc/uptime
+  170  cd /sbin
+  171  ls
+  172  cat /sbin/iptables
+  173  cd /sbin/iptables
+  174  cd /sbin/iptables/
+  175  cd /sbin/ifconfig
+  176  cd /sbin/ifconfig/
+  177  cat /sbin/ifconfig/
+  178  cat /sbin/ifconfig
+  179  exit
+  180  ifconfig
+  181  sudo apt install net-tools
+  182  traceroute
+  183  sudo apt install net-tools
+  184  traceroute 4.2.2.2
+  185  sudo apt install inetutils-traceroute
+  186  traceroute 4.2.2.2
+  187  ping 4.2.2.2
+  188  ifconfig
+  189  ls -l
+  190  pwd
+  191  ls -la
+  192  ls -all 
+  193  man
+  194  man man
+  195  ls
+  196  ls -a
+  197  ls --a
+  198  ls -a
+  199  man ls
+  200  ls -l
+  201  ls -l -a
+  202  ls -la
+  203  man ls
+  204  ls -al
+  205  ls -a
+  206  pwd
+  207  man pwd
+  208  pwd -l
+  209  pwd -L
+  210  man CD
+  211  man cd
+  212  man mkdir
+  213  mkdir test
+  214  mkdir test2
+  215  mv test test2/
+  216  ls
+  217  cd test2/
+  218  ls
+  219  cd..
+  220  cd ..
+  221  ls -l -a
+  222  cd test2/test/
+  223  cd
+  224  cd test2/test/
+  225  cd ..
+  226  ls
+  227  cd test2/test/
+  228  cd -
+  229  ls
+  230  man cp
+  231  cd test2/
+  232  ls
+  233  rm test/
+  234  rm -r test/
+  235  ls
+  236  mkdir test
+  237  ls
+  238  cd ..
+  239  ls
+  240  cp .vboxclient-clipboard.pid test
+  241  ls -a
+  242  ls -a -l
+  243  ls -l
+  244  ls -l -a
+  245  ls -l 
+  246  chmod 777 test4
+  247  cp test test3
+  248  chmod 777 test3
+  249  ls -l 
+  250  cp test3 test4
+  251  ls -l 
+  252  cp test3 test4 -p
+  253  ls -l 
+  254  cat .bash_history 
+  255  history 
+  256  touch title
+  257  ls -ls
+  258  man touch
+  259  rm title 
+  260  ls
+  261  touch file
+  262  ls
+  263  ls -ls
+  264  ls -l
+  265  mkdir test-dir
+  266  mkdir test-dir/test2
+  267  man ln
+  268  ln -s test-dir/test2 link
+  269  ls -l
+  270  cd link
+  271  touch here
+  272  ls
+  273  cd -
+  274  cd test-dir/test2/
+  275  ls
+  276  cd ..
+  277  ls
+  278  ls test-dir/test2/
+  279  ls link
+  280  man ln
+  281  cat test
+  282  cat /var/log/auth.log 
+  283  echo Hello world
+  284  echo Hello world > hello_world
+  285  cat hello_world
+  286  ls
+  287  echo Hello Armenia > hello_world
+  288  cat hello_world
+  289  echo Hello world >> hello_world
+  290  cat hello_world
+  291  echo Hello World > hello_world
+  292  cat hello_world
+  293  echo Hello Armenia >> hello_world
+  294  cat hello_world
+  295  echo $shell
+  296  echo $SHELL
+  297  nano .profile 
+  298  echo .bash_history 
+  299  nano .bash_history 
+  300  nano .bash_logout 
+  301  less
+  302  uname
+  303  uname -a
+  304  man uname
+  305  cp /etc/os-relase /home/hkeshishyan/my-PC
+  306  cat /etc/os-release 
+  307  cp /etc/os-relase my-PC
+  308  cp /etc/os-release my-PC
+  309  ls
+  310  cat my-PC
+  311  whoami
+  312  is
+  313  ls
+  314  cat hello_world | grep Armenia
+  315  ls
+  316  touch animals
+  317  ls
+  318  echo horse >> animals
+  319  echo dog >> animals
+  320  echo cat >> animals
+  321  cat animals 
+  322  echo horse >> animals
+  323  cat animals 
+  324  nano animals 
+  325  ls
+  326  sort animals 
+  327  ps -3
+  328  ps 
+  329  ps -a
+  330  ls -l
+  331  man chmod
+  332  sudo su
+  333  traceroute 8.8.8.8
+  334  wget 
+  335  ufw
+  336  top
+  337  htop
+  338  sudo apt-get install htop
+  339  htop
+  340  ls
+  341  nano run.sh
+  342  ls
+  343  ./run.sh
+  344  chmod +x run.sh
+  345  ./run.sh
+  346  cat script 
+  347  cat test
+  348  ls -l
+  349  cat test3
+  350  cat /var/log/syslog
+  351  cat /var/log/syslog | grep kernel
+  352  cat /var/log/syslog | grep store
+  353  cat /var/log/
+  354  cat /var/log/syslog.1 | grep store
+  355  cat /var/log/syslog.1 | grep kernel
+  356  cat /var/log/syslog.1 
+  357  cat /var/log/syslog.1 | grep kernel
+  358  cat /var/log/syslog | grep kernel
+  359  cat /var/log/syslog | grep "kernel"
+  360  cat /var/log/syslog | grep 'kernel'
+  361  cat /var/log/auth.log 
+  362  cat /var/log/auth.log | grep kernel
+  363  cat /var/log/boot.log | grep kernel
+  364  cat /var/log/syslog
+  365  cat /var/log/faillog | grep kernel
+  366  cat /var/log/syslog | grep kernel
+  367  cat /var/log/dpkg.log | grep kernel
+  368  echo /var/log/syslog | grep kernel
+  369  echo /var/log/dpkg.log | grep kernel
+  370  echo /var/log/dpkg.log | grep kernel >> kernel_info
+  371  ls
+  372  cat kernel_info 
+  373  cat /var/log/dpkg.log | grep kernel
+  374  cat /var/log/dpkg.log | grep kernel echo >kernel_info 
+  375  cat /var/log/dpkg.log | grep kernel echo > kernel_info 
+  376  cat /var/log/dpkg.log | grep kernel echo >> kernel_info 
+  377  cat /var/log/dpkg.log | grep kernel  > kernel_info 
+  378  cat kernel_info 
+  379  cat /var/log/syslog | grep kernel  > kernel_info 
+  380  cat kernel_info 
+  381  cat /var/log/dpkg.log | grep kernel  > kernel_info 
+  382  cat kernel_info 
+  383  cat /var/log/syslog | grep kernel  > kernel_info1 
+  384  cat kernel_info 
+  385  cat kernel_info1 
+  386  ls
+  387  sudo apt-get install apache 
+  388  sudo apt-get install apache2 
+  389  pwd
+  390  cd ..
+  391  ls
+  392  cd ..
+  393  ls
+  394  cd /srv
+  395  ls
+  396  cd /home/hkeshishyan/
+  397  ls
+  398  service apache2 start 
+  399  cd /etc/
+  400  ls
+  401  cd init.d/
+  402  ls
+  403  cd -
+  404  cd ..
+  405  ls
+  406  cd /home/hkeshishyan/
+  407  sudo service apache2 stop 
+  408  sudo service apache2 start
+  409  ps
+  410  cat /var/log/apache2/access.log 
+  411  tail /var/log/apache2/access.log 
+  412  sudo service apache2 stop 
+  413  sudo service apache2 start 
+  414  tail -25 /var/log/apache2/access.log 
+  415  tail -11 /var/log/apache2/access.log 
+  416  tail -25 /var/log/apache2/access.log 
+  417  tail -25 /var/log/apache2/access.log > apache_logs
+  418  ls
+  419  ls -a
+  420  cat .bash_history 
+  421  ls -a
+  422  cat .bash_history 
+  423  in
+  424  ls
+  425  ls -l
+  426  ls -l -a
+  427  uname
+  428  uname -a
+  429  cat /etc/os-release 
+  430  ls
+  431  car archive.tar.gz 
+  432  nano .bash_history 
+  433  cat .bash_logout 
+  434  cat test
+  435  cat test8
+  436  cat test > test8
+  437  cat test8
+  438  cd test8
+  439  sudo apt-get update 
+  440  nano /etc/apt/sources.list
+  441  telnet 
+  442  apt cache search telnet
+  443  apt-cache search telnet
+  444  apt-cache search tracepath
+  445  sudo apt install zip
+  446  sudo su
+  447  exit
+  448  ls /etc/systemd/system
+  449  nano /etc/systemd/system/processes.service
+  450  sudo nano /etc/systemd/system/processes.service
+  451  man ps
+  452  ls /hkesishyan/bin
+  453  ls
+  454  pwd
+  455  ls /home/
+  456  ls /
+  457  ls /bin/
+  458  sudo rm /
+  459  ls /bin/
+  460  sudo nano /etc/systemd/system/processes.service
+  461  systemctl daemon-reload 
+  462  sudo systemctl daemon-reload 
+  463  sudo systemctl start processes
+  464  ls /var/log/
+  465  cat /var/log/process.log 
+  466  sudo systemctl stop processes
+  467  ls /var/log/
+  468  man cp
+  469  cp /etc/systemd/system/processes.service /home/hkeshishyan/
+  470  pwd
+  471  mkdir zabbix-packages
+  472  rm -r zabbix-packages/
+  473  touch zabbix-packages
+  474  apt-cache search zabbix > zabbix-packages 
+  475  cat zabbix-packages 
+  476  apt-cache search zabbix 
+  477  tar -vcf zabbix.tar.gz zabbix-packages 
+  478  ls
+  479  tail -20 .bash_history > bash_historylast20
+  480  ls
+  481  cat bash_historylast20 
+  482  exit
+  483  ls
+  484  tail -20 .bash_history > bash_historylast20
+  485  cat bash_historylast20 
+  486  tail -30 .bash_history > bash_historylast20
+  487  cat bash_historylast20 
+  488  tail -20 .bash_history > bash_historylast20
+  489  cat bash_historylast20 
+  490  whereis ps
+  491  whereis rm
+  492  crontab -l
+  493  select-editor 
+  494  cat /etc/fstab 
+  495  cat /etc/mtab
+  496  cat /var/log/apache2/error.log
+  497  cat /var/log/apache2/access.log
+  498  cat /var/log/apache2/access.log.1
+  499  cat /var/log/apache2/access.log
+  500  cat /etc/fstab 
+  501  cat /etc/mtab
+  502  htop
+  503  crontab -e
+  504  service cron status 
+  505  exit
+  506  service cron ststus
+  507  service cron status 
+  508  crontab -e
+  509  sudo crontab -e
+  510  crontab -e
+  511  sudo crontab -e
+  512  crontab -e
+  513  sudo crontab -e
+  514  crontab -e
+  515  cat /var/log/apache2/access.log
+  516  cat /var/log/apache2/access.log.1
+  517  service cron status 
+  518  crontab -e
+  519  ls
+  520  ls /home/hkeshishyan/
+  521  cat /home/hkeshishyan/date_cron 
+  522  crontab -e
+  523  curl localhost
+  524  sudo apt install curl
+  525  cat /var/log/apache2/access.log
+  526  crontab -e
+  527  cat /var/log/apache2/access.log
+  528  crontab -e
+  529  cat /var/log/apache2/access.log
+  530  cd /etc/logrotate.d/
+  531  ls
+  532  cat apache2 
+  533  cat /var/log/apache2/access.log
+  534  nano rotate_apache2_access_log
+  535  sudo nano rotate_apache2_access_log
+  536  ls
+  537  cat /var/lib/logrotate/status 
+  538  more rotate_apache2_access_log 
+  539  cd ~
+  540  whereami
+  541  cat /var/log/apache2/access.log
+  542  crontab -e
+  543  whereis crontab
+  544  cat /etc/crontab 
+  545  cat /usr/bin/crontab 
+  546  crontabe 
+  547  crontab -e
+  548  ls
+  549  cp rotate_apache2_access_log /etc/logrotate.d/rotate_apache2_access_log 
+  550  cp ~/rotate_apache2_access_log /etc/logrotate.d/rotate_apache2_access_log 
+  551  cp /etc/logrotate.d/rotate_apache2_access_log ~/rotate_apache2_access_log
+  552  ls
+  553  cat rotate_apache2_access_log 
+  554  cat copy_crontab-e 
+  555  cat .bash_history 
+  556  exit
+  557  cat .bash_h
+  558  cat .bash_history 
+  559  tail 50 .bash_history 
+  560  tail -50 .bash_history 
+  561  tail -70 .bash_history 
+  562  tail -54 .bash_history 
+  563  tail -54 .bash_history > tail_54lines_bash_history
+  564  ls
+  565  exit
+  566  ls -la
+  567  ls /var/log/apache2/
+  568  ls /var/log/apache2/ -l
+  569  ls -l /etc/logrotate.d/
+  570  cat /etc/logrotate.d/apache2 
+  571  ps
+  572  ps -l
+  573  ps -a
+  574  ps -au
+  575  ps -aux
+  576  crontab -l
+  577  man crontab 
+  578  cat /var/log/syslog | grep curl
+  579  cat /var/log/syslog | grep logrotate
+  580  ifconfig
+  581  whereis logrotate
+  582  cd /usr/sbin/logrotate
+  583  cat /usr/sbin/logrotate
+  584  cd ~
+  585  pwd
+  586  cat rotate_apache2_access_log 
+  587  cd /var/log/apache2/
+  588  ls
+  589  ls -la
+  590  exit
+  591  cat /etc/logrotate.d/
+  592  cat /etc/logrotate.d/rotate_apache2_access_log 
+  593  cp /etc/logrotate.d/rotate_apache2_access_log /etc/logrotate.d/test
+  594  sudo cp /etc/logrotate.d/rotate_apache2_access_log /etc/logrotate.d/test
+  595  ls /etc/logrotate.d/
+  596  cat /etc/logrotate.d/test 
+  597  crontab -e 
+  598  nano testcurl.sh
+  599  ls -l
+  600  crontab -e 
+  601  ls -l
+  602  crontab -e 
+  603  cat testcurl.sh 
+  604  ls -l
+  605  touch testcurl.log
+  606  ls -l
+  607  cat testcurl.log 
+  608  cat testcurl.sh 
+  609  cat /var/log/syslog
+  610  cat /var/log/syslog | grep curl
+  611  cat testcurl.sh 
+  612  cat /home/hkeshishyan/testcurl.log 
+  613  run testcurl.sh 
+  614  crontab -e 
+  615  cat /home/hkeshishyan/testcurl.sh 
+  616  ls -ls
+  617  ls ./
+  618  ls
+  619  testcurl.sh 
+  620  /home/hkeshishyan/testcurl.sh
+  621  chmod +x testcurl.sh 
+  622  rm testcurl.log 
+  623  ls
+  624  cat testcurl.log 
+  625  crontab -e
+  626  cat testcurl.sh 
+  627  crontab -e
+  628  logrotate 
+  629  cat /etc/logrotate.d/test 
+  630  nano /etc/logrotate.d/test 
+  631  sudo nano /etc/logrotate.d/test 
+  632  logrotate /etc/logrotate.d/test 
+  633  sudo logrotate /etc/logrotate.d/test 
+  634  ls
+  635  cat /etc/logrotate.d/test 
+  636  sudo logrotate /etc/logrotate.d/test 
+  637  ls
+  638  cat testcurl.log 
+  639  cat /etc/logrotate.d/test 
+  640  crontab -e
+  641  sudo /usr/sbin/logrotate /etc/logrotate.d/test 
+  642  ls
+  643  sudo nano /etc/logrotate.d/test 
+  644  ls
+  645  sudo /usr/sbin/logrotate /etc/logrotate.d/test 
+  646  ls
+  647  sudo /usr/sbin/logrotate /etc/logrotate.d/test 
+  648  ls
+  649  cat testcurl.log 
+  650  crontab -e
+  651  ./testcurl.sh 
+  652  ls
+  653  cr
+  654  ls
+  655  ./testcurl.sh 
+  656  ls
+  657  ./testcurl.sh 
+  658  ls
+  659  crontab -e
+  660  ls
+  661  ls ~/downloads
+  662  pwd
+  663  cd ~/downloads
+  664  cd Downloads/
+  665  ls
+  666  ssh -i vm-aia.pem ubuntu@3.19.255.217
+  667  chmod 600 vm-aia.pem 
+  668  ssh -i vm-aia.pem ubuntu@3.19.255.217
+  669  cd ~
+  670  cd .ssh/
+  671  ls
+  672  nano known_hosts 
+  673  exit
+  674  cd .ssh/
+  675  LS -A
+  676  LS -a
+  677  ls
+  678  ls -la
+  679  cd .
+  680  cd
+  681  ls
+  682  ls -la
+  683  ls .ssh/
+  684  cat .ssh/known_hosts 
+  685  ssh -i ~/Downloads/vm-aia.pem ubuntu@3.19.255.217
+  686  ssh  ubuntu@3.19.255.217
+  687  ssh -i ~/Downloads/vm-aia.pem ubuntu@3.19.255.217
+  688  cat .bash_history > history_local.txt
+  689  ssh -i ~/Downloads/vm-aia.pem ubuntu@3.19.255.217
+  690  history 
+  691  mkdir test-git
+  692  ls
+  693  cd test-git/
+  694  ls
+  695  mkdir repo
+  696  cd repo/
+  697  git --version
+  698  sudo apt install git
+  699  git --version
+  700  git init
+  701  ls
+  702  ls -la
+  703  cd .git/
+  704  ls
+  705  cd ..
+  706  nano test-file
+  707  git status
+  708  ls
+  709  git add test-file 
+  710  git status
+  711  git commit -m "test file is added"
+  712  ls
+  713  cd ..
+  714  ls -ls
+  715  ls -la
+  716  git clone https://github.com/arkocharyan/bdg-test.git
+  717  ls
+  718  cd bdg-test/
+  719  ls
+  720  nano Test_File
+  721  ls
+  722  git status 
+  723  git add Test_File
+  724  git status 
+  725  git commit -m "Test_File added for test"
+  726  git config --global user.name "hkeshishyan"
+  727  git commit -m "Test_File added for test"
+  728  git config --global user.email "hakob.keshishyan@gmail.com"
+  729  git commit -m "Test_File added for test"
+  730  git status 
+  731  ls
+  732  git push 
+  733  ls
+  734  git status 
+  735  git pull 
+  736  ls
+  737  nano Test_File1
+  738  ls
+  739  git status 
+  740  git add Test_File1 
+  741  git status 
+  742  git commit -m "Hakob's git test file."
+  743  git status 
+  744  git push Test_File1 
+  745  git push 
+  746  ls
+  747  cat file1 
+  748  nano Test_File
+  749  git status 
+  750  git add Test_File 
+  751  git commit -m Test_File 
+  752  git status 
+  753  git push 
+  754  nano Test_File
+  755  git status 
+  756  git add Test_File 
+  757  git status 
+  758  git commit "Second time test changed"
+  759  git commit -m "Second time test changed"
+  760  git push 
+  761  ls -la
+  762  cat .gitignore 
+  763  git diff
+  764  git log
+  765  ls -la
+  766  cd .ssh/
+  767  ls -la
+  768  ssh-keygen -t ed25519 -C "hakob.keshishyan@gmail.com"
+  769  ls -la
+  770  cat id_ed25519.pub 
+  771  cat id_ed25519
+  772  nano id_ed25519.pub 
+  773  cat id_ed25519
+  774  cat id_ed25519.pub 
+  775  cd ..
+  776  ls -la
+  777  cd test-git/
+  778  ls
+  779  git clone git@github.com:hkeshishyan/hakob.git 
+  780  ls -la
+  781  cd hakob/
+  782  ls -la
+  783  git status 
+  784  git branch 
+  785  git branch new branch
+  786  git branch new_branch/bash_history
+  787  git branch 
+  788  git checkout new_branch/bash_history 
+  789  git branch 
+  790  ls -la
+  791  history > history1_work
